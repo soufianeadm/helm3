@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: guestbook-ingress
+  namespace: my-namespace
 spec:
   rules:
   - host: frontend.minikube.local
