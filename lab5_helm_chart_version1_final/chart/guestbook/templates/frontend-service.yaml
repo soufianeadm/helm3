@@ -4,6 +4,7 @@ metadata:
   labels:
     name: frontend
   name: frontend
+  namespace: my-namespace
 spec:
   ports:
     - protocol: "TCP"
